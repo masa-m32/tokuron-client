@@ -19,7 +19,7 @@
 
 async function login() {
   try {
-    const response = await axios.post(`${API_HOST}/api/v1/auth/login`, {
+    const response = await axios.post(`${API_HOST}/api/v1/auth/login/`, {
       email,
       password,
     });

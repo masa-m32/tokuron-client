@@ -18,7 +18,7 @@
 
   async function register() {
     try {
-      await axios.post(`${API_HOST}/api/v1/auth/register`, {
+      await axios.post(`${API_HOST}/api/v1/auth/register/`, {
         name,
         email,
         password,
